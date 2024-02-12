@@ -1,7 +1,6 @@
 #Muller's Method
 
 import numpy as np
-import sympy as sp
 
 def f(x, function):
   return eval(function)
