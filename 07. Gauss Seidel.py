@@ -21,7 +21,6 @@ def gauss_seidel(matrix, initial_guess, tolerance=0.00001, max_iterations=100):
 
     raise ValueError("Gauss-Seidel method did not converge within the specified number of iterations.")
 
-# Example usage:
 matrix = [[3, -0.1, -0.2, 7.85],
           [0.1, 7, -0.3, -19.3],
           [0.3, -0.2, 10, 71.4]]
